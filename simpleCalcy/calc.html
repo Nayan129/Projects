@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Calculator</title>
+  <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+  <div id="container">
+    <input type="text" id="display" readonly>
+    <div id="btn">
+      <button onclick="clearDisplay('C')" class="changecolor">C</button>
+      <button onclick="displayNum('7')">7</button>
+      <button onclick="displayNum('8')">8</button>
+      <button onclick="displayNum('9')">9</button>
+      <button onclick="displayNum('-')" class="changecolor">-</button>
+      <button onclick="displayNum('4')">4</button>
+      <button onclick="displayNum('5')">5</button>
+      <button onclick="displayNum('6')">6</button>
+      <button onclick="displayNum('*')" class="changecolor">*</button>
+      <button onclick="displayNum('1')">1</button>
+      <button onclick="displayNum('2')">2</button>
+      <button onclick="displayNum('3')">3</button>
+      <button onclick="displayNum('/')" class="changecolor">/</button>
+      <button onclick="displayNum('0')">0</button>
+      <button onclick="displayNum('.')" >.</button>
+      <button onclick="displayNum('+')" >+</button>
+      <button onclick="Calculate('=')" class="changecolor">=</button>
+
+    </div>
+  </div>
+</body>
+<script src="cal.js"></script>
+</html>

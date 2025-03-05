@@ -1,0 +1,100 @@
+/* ....... css for small screens ............. */
+@media screen and (max-width:600px) {
+
+  .bg-img {
+    display: none;
+  }
+  .header-text{
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 55%;
+  }
+    h1{
+    font-size: 30px;
+  }
+  nav ul li{
+    display: none;
+  }
+  nav .fa-solid{
+    display: block;
+    font-size: 25px;
+  }
+  nav ul{
+    position: fixed;
+    right: -200px;
+    top: 0;
+    background: #ff004f;
+    width: 200px;
+    height: 100vh;
+    z-index: 2;
+    padding-top: 50px;
+    transition: right 0.5s;
+  }
+  nav ul li{
+    display: flex;
+    margin: 30px;
+  }
+  nav ul .fa-solid{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    cursor: pointer;
+  }
+
+   .about-col-1{
+   flex-basis: 100%;
+   margin-left: -8px;
+   margin-top: -50px;
+   }
+   .img1{
+    margin: 40px -22px;
+    height: 85vh;
+    width: 120%;
+    border-radius: 15px;
+   }
+   .sub-title{
+    margin-top: -25px;
+    font-size: 40px;
+   }
+   .sub-para{
+    margin-top: -30px;
+    font-size: 14px;
+    font-weight: 500;
+   }
+   .tab-links{
+    font-size: 23px;
+    margin-top: 25px;
+   }
+   .contact-left{
+    flex-basis: 100%;
+   }
+   .contact-left p{
+    font-size: 18px;
+    margin-bottom: 20px;
+   }
+   .contact-left p i{
+    font-size: 30px;
+   }
+   .social-icons{
+    margin: 35px 12px;
+   }
+   .social-icons a{
+    font-size: 34px;
+   }
+   .btn2{
+    margin-left: 60px;
+    margin-top: 5px;
+    font-size: 22px;
+   }
+   .contact-right{
+    flex-basis: 100%;
+   }
+   form .btn2{
+    margin-left: 60px;
+    margin-top: 15px;
+    font-size: 22px;
+   }
+   .copyright{
+    font-size: 14px;
+   }
+}

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mediaQuery.css">
+  <script src="https://kit.fontawesome.com/7363e9383c.js" crossorigin="anonymous"></script>
+
+  <title>Resume</title>
+</head>
+<body>
+  <div id="header" id="Home">
+    <div class="container">
+      <nav>
+        <h1><span>P</span>ortfolio </h1>
+        <ul id="sideMenu">
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Service</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fa-solid fa-xmark"onclick="closeMenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+      </nav>
+      <div class="img-header-text">
+      <div class="header-text">
+        <p>UI/UX Designer</p>
+        <h1>Hi, I'm <span>Nayan</span><br> A Full-Stack Devloper</h1>
+    </div>
+    <img src="/img/bg-img.jpg" class="bg-img">
+      </div>
+    <!-- ........... About ........... -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="/img/portrait.png" class="img1">
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p class="sub-para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo, accusamus? Eaque impedit similique rerum magni sit tempora ipsa provident temporibus veritatis explicabo eligendi quisquam, dolorum sapiente ex, facilis blanditiis! Corrupti ullam amet doloremque quos architecto, vitae necessitatibus deleniti. Aliquam, voluptatem? Nisi doloribus minus ab amet iste saepe, facere animi nesciunt?</p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                <li><span>FrontEnd Development</span><br>Designing User Interfaces</li>
+                <li><span>Web Development</span><br>Building ios/android Interfaces</li>
+              </ul>
+            </div>
+            <div class="tab-contents " id="education">
+              <ul>
+                <li><span>2025 - Current </span><br>UI/UX intern at CIA Institute</li>
+                <li><span>2021</span><br>BCA From Taywade Collage</li>
+                <li><span>2022</span><br>C/C++ Training</li>
+                <li><span>2019</span><br>Completed 12th Science</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- .........Services ........... -->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Serivices</h1> 
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Web Design</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse perspiciatis autem cum veniam aperiam consequuntur delectus, dolorum aliquam molestiae! Debitis.</p>
+          <a href="#">Learn More</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-crop-simple"></i>
+          <h2>UI/UX Design</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse perspiciatis autem cum veniam aperiam consequuntur delectus, dolorum aliquam molestiae! Debitis.</p>
+          <a href="#">Learn More</a>
+        </div>
+        <div>
+          <i class="fa-brands fa-app-store"></i>
+          <h2>FrontEnd Design</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse perspiciatis autem cum veniam aperiam consequuntur delectus, dolorum aliquam molestiae! Debitis.</p>
+          <a href="#">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ........ portfolio ............ -->
+   <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Work</h1> 
+      <div class="work-list">
+      <div class="work">
+        <img src="/img/work1.png" >
+        <div class="layer">
+          <h3>Social Media App</h3>
+          <p>The app connects you to the talentend people around the world. Download it from Play store.</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="/img/work2.png" >
+        <div class="layer">
+          <h3>Music Player App</h3>
+          <p>The app connects you to the talentend people around the world. Download it from Play store.</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="/img/work3.png" >
+        <div class="layer">
+          <h3> Gaming App</h3>
+          <p>The app connects you to the talentend people around the world. Download it from Play store.</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="btn">See More</a>
+    </div>
+   </div>
+<!-- .......... Contact ......... -->
+ <div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1> 
+        <p> <i class="fa-solid fa-paper-plane"></i>nayanbhusari02@gamil.com</p>
+        <p> <i class="fa-solid fa-phone-volume"></i> 7447223651</p>
+        <div class="social-icons">
+         <a href=""><i class="fa-brands fa-facebook"></i></a> 
+         <a href=""> <i class="fa-brands fa-instagram"></i></a>
+         <a href=""> <i class="fa-brands fa-linkedin"></i></a>
+         <a href=""> <i class="fa-brands fa-twitter"></i></a>
+         <a href=""> <i class="fa-brands fa-github"></i></a>
+        </div>
+        <a href="/img/cv.pdf" download class="btn2"  >Download CV</a>
+      </div>
+      <div class="contact-right">
+        <form>
+        <input type="text" name="Name" placeholder="Enter Your Name">
+        <input type="text" name="Email" placeholder="Enter Email">
+        <textarea name="message" placeholder="message" rows="6"></textarea>
+        <button class="btn2">Sumbit</button>
+      </form>
+      </div>
+    </div>
+  </div>
+  <!-- ........ FOOTER ........  -->
+   <div class="copyright">
+    <p>Copyright @ Nayan. Made With <i class="fa-solid fa-heart"></i> 123 my portfolio</p>
+   </div>
+ </div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Gilroy';
+}
+html,body{
+   height: 100%;
+   width:100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: rgb(45, 41, 41);
+}
+#card{
+   height: auto;
+   width: 270px;
+   background:linear-gradient(135deg, #00feba, #5b548a);
+   border-radius: 10px;
+   border:2px solid #945229;
+}
+#search{
+   display: flex;
+   justify-content: space-between;
+   margin:10px 5px;
+}
+#search input{
+   width: 80%;
+   font-weight: 500;
+   font-size: large;
+   border-radius: 6px;
+   border:0;
+   text-align:start;
+}
+#search img{
+   height: 30px;
+   margin-left: 10px;
+   padding-right: 5px;
+   padding-top: 5px;
+   cursor: pointer;
+}
+
+.error{
+   text-align: center;
+   font-size: 15px;
+   font-weight: 500;
+   display: none;
+}
+
+/* this is styling of whether changing img and city  */
+
+#weather{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-left: 2px;
+   padding: 30px;
+   color: white;
+   display: none;
+}
+#temp {
+   font-size: 45px;
+   margin-left: 55px;
+}
+.city{
+   font-size: 25px;
+   text-align: center;
+   margin-left: -10px;
+}
+.whether-icon{
+   height:120px;
+   width: 120px;
+   margin-left: 35px;
+}
+
+/* details of humidity and wind */
+#details{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#col{
+   display: flex;
+   align-items: center;
+   gap: 5px;
+   margin: 20px 10px;
+   text-align: left;
+}
+#col img{
+   height: 30px;
+   width: 30px;
+   margin-right: 5px;
+}
+.humidity ,.wind-speed{
+   font-size: 20px;
+   margin-top: 5px;
+}

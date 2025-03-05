@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="weather.css">
+  <title>Weather APP</title>
+</head>
+<body>
+  <!-- this is box for whether app -->
+  <div id="card">
+
+    <!-- this is first input and search icon div -->
+    <div id="search">
+      <input type="text" spellcheck="false" placeholder="Enter City Name">
+      <button><img src="search.png" ></button>
+    </div>
+    <div class="error">
+      invalid city Name
+    </div>
+
+    <!-- this is for for whether-icon ,city and temp-->
+     <div id="weather">
+      <img src="cloud.png" class="whether-icon">
+      <h2 id="temp">22°c</h2>
+      <h2 class="city">New York</h2>
+
+      <div id="details">
+        <div id="col">
+          <img src="humidity.png" class="humi-icon">
+         <div>
+         <p class="humidity">50%</p>
+          <p>Humidity</p>
+         </div>
+        </div>
+        <div id="col">
+          <img src="wind.png" class="wind-icon">
+         <div> <p class="wind-speed">15Km/h</p>
+          <p>Wind</p>
+        </div>
+        </div>
+      </div>
+
+     </div>
+  </div>
+</body>
+<script src="weather.js"></script>
+</html>
